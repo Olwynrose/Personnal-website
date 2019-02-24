@@ -36,13 +36,13 @@ header {
 }
 
 #nom {
-  height: 10vh;
+  height: 13vh;
   width: auto;
   max-width: 50vw;
 }
 
 #logo {
-  height: 12vh;
+  height: 15vh;
   margin: 10vh;
 }
 
@@ -57,6 +57,11 @@ header {
 
 #menu a {
   font-size: 2.5vh;
+}
+
+#menu a:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 #menu p {
@@ -83,6 +88,19 @@ header {
 
 #download a {
   font-size: 2.5vh;
+  border: solid 2px black;
+  text-align: center;
+  padding: 1vh 3vw;
+  color: black;
+  text-decoration: none;
+
+  transition: all 0.5s;
+}
+
+#download a:hover {
+  font-size: 2.6vh;
+  background-color: rgb(245,245,245);
+  transition: all 0.5s;
 }
 
 .sect {
@@ -119,9 +137,4 @@ h1 {
 a {
   color: rgb(107,190,212);
   font-family: 'Open Sans Condensed', sans-serif;
-}
-
-a:hover {
-  transform: scale(1.1);
-  transition: all 0.5s;
 }
